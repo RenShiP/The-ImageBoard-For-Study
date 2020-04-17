@@ -1,0 +1,67 @@
+body {
+    background-color: #282336;
+    color: #7aaad8;
+    font-family: sans-serif;
+}
+
+.welcomemessage {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.upborder a{
+    color:#7aaad8;
+}
+
+.newtheadform {
+    
+    display: none;
+
+}
+
+.threadmessage {
+    width:300px;
+    height:100px;
+    background-color: #282238;
+    color: #84b8e9;
+}
+
+.anonthread {
+    clear: both;
+    color: #7aaad8;
+    background-color: #312E40;
+    border: 4px solid #312E40;
+    border-top: 5px solid #312E40;
+    border-radius: 2px;
+    max-width: 1000px;
+    min-height: 140px;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.anonthread .anondate {
+    font-size: 90%;
+    margin-bottom: 10px;
+}
+
+.anonthread .anondate a{
+    text-decoration: none;
+    color: #7a83d8;
+}
+
+.anonimg{
+    height:110;
+}
+
+.anonimage{
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.donedone {
+    display: none;
+}
+
+.notdone {
+    display: inline;
+}
